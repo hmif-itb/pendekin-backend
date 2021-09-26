@@ -1,7 +1,8 @@
 import express, { NextFunction, Request, Response } from 'express';
 import axios from 'axios';
-import cors from 'cors';
 import 'dotenv/config';
+
+const cors = require('cors');
 
 const app = express();
 app.use(cors());
