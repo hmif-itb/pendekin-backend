@@ -44,7 +44,7 @@ app.post('/', (request: Request, response: Response, next: NextFunction) => {
         })
 });
 
-app.post('/', (request: Request, response: Response, next: NextFunction) => {
+app.post('/', (request: Request, response: Response) => {
     const body = request.body;
     const url: string = process.env.API_URL as string;
     axios.post(url, body)
