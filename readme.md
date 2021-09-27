@@ -1,5 +1,5 @@
-# pendek.in
+# pendekin
 
 ## Usage
 
-`p.hmif.tech/{route}`
+`hmif.link/${route}`
